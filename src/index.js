@@ -1,7 +1,7 @@
-const EthQuery = require('ethjs-query');
+const EthQuery = require('@alayanetwork/ethjs-query');
 const EthFilter = require('ethjs-filter');
-const EthContract = require('ethjs-contract');
-const HttpProvider = require('ethjs-provider-http');
+const EthContract = require('@alayanetwork/ethjs-contract');
+const HttpProvider = require('@alayanetwork/ethjs-provider-http');
 const abi = require('ethjs-abi');
 // const getTxSuccess = require('ethjs-transaction-success'); // eslint-disable-line
 const unit = require('ethjs-unit');
