@@ -1,8 +1,8 @@
 const EthQuery = require('@alayanetwork/ethjs-query');
 const EthFilter = require('ethjs-filter');
 const EthContract = require('@alayanetwork/ethjs-contract');
-const HttpProvider = require('@alayanetwork/ethjs-provider-http');
-const abi = require('ethjs-abi');
+const HttpProvider = require('ethjs-provider-http');
+const abi = require('@alayanetwork/ethjs-abi');
 // const getTxSuccess = require('ethjs-transaction-success'); // eslint-disable-line
 const unit = require('ethjs-unit');
 const keccak256 = require('js-sha3').keccak_256;
